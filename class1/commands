@@ -1,0 +1,2 @@
+docker pull ubuntu:latest 
+docker run  --name devops2912 -d ubuntu:latest sleep 100000000000
