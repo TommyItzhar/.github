@@ -28,7 +28,7 @@ jobs:
       - name: Login to Docker Hub
         uses: docker/login-action@v3
         with:
-          username: "tommy62k"
+          username: tommy62k
           password: ${{ secrets.git_secret }}
 
       # - name: Build and push Docker image
